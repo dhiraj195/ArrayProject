@@ -1,5 +1,6 @@
 package com.velocity.hdfc.kolhapur;
 
+import java.util.ArrayList;
 import java.util.Hashtable;
 import java.util.LinkedHashMap;
 import java.util.TreeMap;
@@ -28,6 +29,16 @@ public class Rajasthan {
 	ht.put(23, "Madhuri");
 	
 	System.out.println(ht);
+	
+	ArrayList list = new ArrayList();
+	list.add("School");
+	list.add("Empire");
+	list.add("Pune");
+	list.add(0, "House");
+	list.add(1, "Elephant");
+	list.add(2, "Laptop");
+	
+	System.out.println(list);
 
 	}
 
